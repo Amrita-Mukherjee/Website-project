@@ -3,10 +3,25 @@
     overflow: hidden;
     background-color: #FF5656;
     padding: 20px 10px;
+    display: block;
+    height: 36px;
   }
   
+  .header-left a{
+    float: left;
+    color: #FAFFDD;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 38px;
+    line-height: 0px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+  }
   /* Style the header links */
-  .header a {
+  /* .header a {
     float: left;
     color: #FAFFDD;
     text-align: center;
@@ -15,30 +30,42 @@
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
-  }
+  } */
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 30px;
-    margin-left: 350px;
-    font-weight: bold;
+  
+  .header-mid img{
+    margin-left: 476px;
+    
   }
+  
+  
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #ddd;
-    color: #000000;
+    background-color: rgb(255, 255, 255);
+    color: #FF5656;
   }
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: dodgerblue;
-    color: white;
+    text-decoration:underline rgb(11, 1, 48);
+    
   }
   
   /* Float the link section to the right */
-  .header-right {
+  .header-right a{
     float: right;
+    color: #FAFFDD;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 38px;
+    line-height: 0px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
